@@ -1,5 +1,3 @@
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
 
 require 'postcode'
 
@@ -9,7 +7,16 @@ describe Postcode do
   end
 
   it "should respond to a postcode method" do
-   @postcode.should respond_to(:code)
+   @postcode.should respond_to(:postcode)
   end
+
+  it "should respond to a postoffice method" do
+    @postcode.should respond_to(:postoffice)
+  end
+  
+   it "gives the total number of postoffices" do
+     @postcode.should respond_to(:number_of_postoffices)
+   end
+
 end
 

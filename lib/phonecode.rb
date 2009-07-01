@@ -1,4 +1,5 @@
 
+#A class for inetracting with mobile phone providers phone suffixes etc
 
 class Phonecode
 #  attr_accessor :operators,:safaricom_prefixes
