@@ -1,4 +1,4 @@
-require'postcodeslist'
+require 'postcodeslist'
 postcodes_hash
 
 class Postcode
