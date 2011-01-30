@@ -1,4 +1,4 @@
-class County
+class AdminUnit
   Counties = %w[
     GARISSA 
     ISIOLO 
