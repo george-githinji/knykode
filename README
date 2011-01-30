@@ -1,10 +1,10 @@
 == knykode
 
-Knykode is a ruby library for Kenyan postal office codes
+Knykode is a ruby library for Kenyan general information and codes
 
 =Usage
 
-require 'kenyacodes'
+require 'knykodes'
 
  p = Postcode.new
  puts p.postcode('Kerugoya') #10300
