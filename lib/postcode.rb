@@ -1,5 +1,5 @@
 require 'postcodeslist'
-postcodes_hash
+postcodes
 
 class Postcode
 
@@ -8,26 +8,26 @@ class Postcode
   #e.g Juja_Road,Kambi_Ya_Moto
   def postcode(postoffice)
     #postoffice.capitalize_first_letter
-     check_nil(postcodes_hash[postoffice])
+     check_nil(postcodes[postoffice])
   end
 
   def postoffice(postcode)
      #probabably not the most efficient way of doing this
-       check_nil( postcodes_hash.invert[postcode])
+       check_nil( postcodes.invert[postcode])
   end
 
   def number_of_postoffices
-     postcodes_hash.size + 1
+     postcodes.size + 1
   end
 
    #returns an array of all postoffices in the record.
     def list_postoffices
-      postcodes_hash.keys.sort
+      postcodes.keys.sort
     end
 
     #Returns a YML formated output of all the postcodes and postoffices
     def yml_output
-      postcodes_hash.to_yaml
+      postcodes.to_yaml
     end
 
   private
@@ -38,5 +38,4 @@ class Postcode
 end
 
 
-#  a = Postcode.new
-#   puts a.postcode('Kerugoya')
+

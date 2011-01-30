@@ -2,7 +2,7 @@
 # a Hash of the available post officies and corresponding postcodes
 #there could be a better implementation
 
-def postcodes_hash
+def postcodes
     {"Tom_Mboya_St"=>"00400", 
     "Ol_Butyo"=>"20229", 
     "Okia"=>"90301",
