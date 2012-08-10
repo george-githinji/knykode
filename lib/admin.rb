@@ -48,6 +48,5 @@ class AdminUnit
     TURKANA 
     UASINGISHU 
     WESTPOKOT 
-   ]
-
-  end
+  ]
+end
