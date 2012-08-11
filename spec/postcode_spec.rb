@@ -1,4 +1,3 @@
-
 require 'postcode'
 
 describe Postcode do
