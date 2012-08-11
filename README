@@ -1,10 +1,8 @@
 == knykode
-
-Knykode is a ruby library for Kenyan general information and codes
+knykode is a Ruby gem for Kenyan general postal and other codes
 
 =Usage
-
-require 'knykodes'
+require 'knykode'
 
  p = Postcode.new
  puts p.postcode('Kerugoya') #10300
