@@ -7,8 +7,16 @@ usage
 ```ruby 
 require 'knykode'
 
-p = Knykode::Postcode.new
-puts p.postcode("Kerugoya") #should return 10300
+# working with the postcode class
+posta = Knykode::Postcode.new
+
+#get a postcode given a post office name
+puts posta.postcode("Kerugoya") #10300
+
+mobile = Knykode::Mobile.new
+
+#list an array of available carriers
+puts mobile.carriers.inspect #["Safaricom", "Airtel", "Yu", "Orange", "Telkom"]
 
 ```
 
