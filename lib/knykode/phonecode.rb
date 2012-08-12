@@ -1,8 +1,8 @@
 module Knykode
   require_relative 'parser'
 
-  class Phonecode
-    def operators
+  class Mobile
+    def carriers
       ['Safaricom','Airtel','Yu','Orange','Telkom']
     end
 
