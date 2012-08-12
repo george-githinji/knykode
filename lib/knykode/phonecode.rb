@@ -1,14 +1,39 @@
-class Phonecode
-  Operators = ["Safaricom","Airtel","Yu","Orange"]
-  Safaricom_prefixes = [0720,0721,0722,0723,0724,0725,0710]
-  Airtel_prefixes = [0730,0731,0732,0733,0734,0735,0746]
+module Knykode
+  require_relative 'parser'
 
-  def add_safaricom_prefix(prefix)
-    Safaricom_prefixes.push(prefix)
+  class Phonecode
+    def operators
+      ['Safaricom','Airtel','Yu','Orange','Telkom']
+    end
+
+    class Safaricom
+      def prefixes
+        [0720,0721,0722,0723,0724,0725,0710]
+      end
+    end
+
+    class Airtel
+      def prefixes
+        [0730,0731,0732,0733,0734,0735,0746]
+      end
+    end
+
+    class Yu
+      def prefixes
+
+      end
+    end
+
+    class Orange
+      def prefixes
+
+      end
+    end
+
+    class Telkom
+      def areacode
+
+      end
+    end
   end
-
-  def add_airtel_prefix(prefix)
-    Airtel_prefixes.push(prefix)
-  end
-
 end
