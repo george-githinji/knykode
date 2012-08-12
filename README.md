@@ -11,10 +11,14 @@ posta = Knykode::Postcode.new
 
 #get a postcode given a post office name
 puts posta.postcode("Kerugoya") #10300
+puts posta.postcode("Tom Mboya St") #00400
+puts posta.postcode("Ol Butyo") #20229
 
-mobile = Knykode::Mobile.new
+#get postoffice name given a postcode
+puts posta.postoffice('20229') #Ol Butyo
 
 #list an array of available carriers
+mobile = Knykode::Mobile.new
 puts mobile.carriers.inspect #["Safaricom", "Airtel", "Yu", "Orange", "Telkom"]
 
 #list prefix codes for safaricom
