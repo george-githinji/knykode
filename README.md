@@ -6,7 +6,6 @@ usage
 ==
 ```ruby 
 require 'knykode'
-
 # working with the postcode class
 posta = Knykode::Postcode.new
 
@@ -17,6 +16,10 @@ mobile = Knykode::Mobile.new
 
 #list an array of available carriers
 puts mobile.carriers.inspect #["Safaricom", "Airtel", "Yu", "Orange", "Telkom"]
+
+#list prefix codes for safaricom
+safaricom = Knykode::Mobile::Safaricom.new
+puts safaricom.prefixes
 
 ```
 
