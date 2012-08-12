@@ -16,7 +16,7 @@ module Knykode
     end
 
     def postoffice(postcode)
-      check_nil( postcodes.invert[postcode])
+      check_nil(postcodes.invert[postcode])
     end
 
     def number_of_postoffices
