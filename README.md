@@ -1,8 +1,8 @@
-introduction
+Introduction
 ===
 This library is a work in progress and aims at providing postal,telephone and other Kenyan common codes.
 
-usage
+Usage
 ==
 ```ruby 
 require 'knykode'
@@ -30,14 +30,11 @@ counties = Knykode::Counties.new
 puts counties.names #an array of county names
 ```
 
-license
+License
 ==
-MIT. see LICENSE 
+See LICENSE 
 
-todo list
+Todo list
 ==
-* Allow travis integration server (make sure it works with all versions of Ruby(Jruby,rubinious,MRI 1.9.2, 1.9.3 and 1.8.7))
+* Make sure it works with all versions of Ruby(Jruby,Rubinius,MRI 1.9.2, 1.9.3 and 1.8.7))
 * Provide better tests
-* Provide better documentation
-
-
