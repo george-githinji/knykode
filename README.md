@@ -21,6 +21,9 @@ puts mobile.carriers.inspect #["Safaricom", "Airtel", "Yu", "Orange", "Telkom"]
 safaricom = Knykode::Mobile::Safaricom.new
 puts safaricom.prefixes
 
+#get a list of counties
+counties = Knykode::Counties.new
+puts counties.names #an array of county names
 ```
 
 license
