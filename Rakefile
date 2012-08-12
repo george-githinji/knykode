@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "knykode"
   gem.homepage = "http://github.com/georgeG/knykode"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{provides postal,telephone and other common codes in Kenya}
+  gem.description = %Q{provides postal,telephone and other common codes in Kenya}
   gem.email = "georgkam@gmail.com"
-  gem.authors = ["George Githinji"]
+  gem.authors = ['George Githinji','Njeri Chelimo']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
