@@ -1,5 +1,4 @@
 module Knykode
-  require_relative 'parser'
 
   class Mobile
     def carriers
@@ -51,6 +50,5 @@ module Knykode
     def prefix_str(arr)
       arr.join(',')
     end
-
   end
 end
