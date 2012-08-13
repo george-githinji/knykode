@@ -26,11 +26,8 @@ puts mobile.carriers.inspect #["Safaricom", "Airtel", "Yu", "Orange", "Telkom"]
 #list prefix codes for safaricom
 puts mobile.safaricom_prefixes
 
-#list prefix codes for safaricom
-puts mobile.safaricom_prefixes
-
 #given a number detect the carrier. Note that international number
-format(e.g. +254733######) is not recognised at the moment 
+#format(e.g. +254733######) is not recognised at the moment 
 puts mobile.detect_carrier('0733######')
 
 #get a list of counties
@@ -41,8 +38,3 @@ puts counties.names #an array of county names
 License
 ==
 See LICENSE 
-
-Todo list
-==
-* Make sure it works with all versions of Ruby(Jruby,Rubinius,MRI 1.9.2, 1.9.3 and 1.8.7))
-* Provide better tests
