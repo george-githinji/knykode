@@ -1,6 +1,13 @@
 Introduction
 ===
-This library is a work in progress and aims at providing postal,telephone and other Kenyan common codes.
+This library is a work in progress and aims at providing postal,telephone,area and other codes that are common in Kenya. At moment, the library contains 669 postoffice names and their respective postal codes, 29 area codes, county names and mobile phone carriers and cell phone number prefixes used by the respective carriers. We hope to support information on paybill numbers and general mobile money codes as well as dedicated shortcodes for SMS services.
+
+Installation
+===
+
+```ruby
+  gem install knykode
+```
 
 Usage
 ==
