@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "knykode"
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["George Githinji", "Martha Chumo"]
-  s.date = "2012-08-12"
+  s.authors = ["George Githinji", "Njeri Chelimo"]
+  s.date = "2012-08-13"
   s.description = "provides postal,telephone and other common codes in Kenya"
   s.email = "georgkam@gmail.com"
   s.extra_rdoc_files = [
@@ -23,14 +23,16 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "data/areacodes.txt",
     "data/counties.txt",
     "data/postcodes.txt",
+    "knykode.gemspec",
     "lib/knykode.rb",
     "lib/knykode/counties.rb",
     "lib/knykode/mobile.rb",
     "lib/knykode/parser.rb",
     "lib/knykode/postcode.rb",
-    "spec/phonecode_spec.rb",
+    "spec/mobile_spec.rb",
     "spec/postcode_spec.rb"
   ]
   s.homepage = "http://github.com/georgeG/knykode"
